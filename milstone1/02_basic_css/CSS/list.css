@@ -1,0 +1,17 @@
+li{
+    color: goldenrod;
+}
+
+ul li{
+    color: purple;
+    display: inline;
+}
+
+span{
+    border: 1px solid purple;
+    height: 200px;
+    width: 100px;
+    margin-top: 50px;
+    display: inline-block;
+    /* display: none; --> hide */
+}

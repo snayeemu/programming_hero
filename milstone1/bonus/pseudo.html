@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1:hover{
+            color: greenyellow;
+            background-color: black;
+            margin: 50px;
+            font-weight: 700;
+        }
+        .middle_input:focus{
+            color: blue;
+            font-weight: 700;
+        }
+        a:visited{
+            color: blueviolet;
+        }
+        li:first-child{
+            color: chocolate;
+        }
+        li:last-child{
+            background-color: chocolate;
+        }
+        li:nth-child(2n){
+            color: brown;
+        }
+        li:nth-child(2n + 1){
+            background-color: darkgray;
+        }
+        h3::before{
+            content: "✔ ";
+            color: forestgreen;
+        }
+        h3::after{
+            content: " X";
+            color: red;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>This is normal</h1>
+    <input type="text" name="" id="">
+    <input class="middle_input" type="text" name="" id="">
+    <input type="text" name="" id="">
+    <br>
+    <a href="https://www.google.com/" target="_blank">google a jao</a>
+    <a href="https://twitter.com/cobratate" target="_blank">never visited</a>
+    <a href="https://www.facebook.com/snayeemu/" target="_blank">facebook a jao</a>
+    <br>
+    <h3>middle size header -1</h3>
+    <h3>middle size header -2</h3>
+    <h3>middle size header -3</h3>
+    <h3>middle size header -4</h3>
+    <h3>middle size header -5</h3>
+    <h3>middle size header -6</h3>
+    <ul>
+        <li>amar</li>
+        <li>shonar</li>
+        <li>bangla</li>
+        <li>ami</li>
+        <li>tomay</li>
+    </ul>
+</body>
+</html>

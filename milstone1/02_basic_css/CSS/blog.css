@@ -1,0 +1,30 @@
+.header{
+    height: 200px;
+    /* background-image: url('../../01_First\ Website/image/baby\ picture/happy_baby_dancing.jpg'); */
+    background-image: url("../image/happy_baby_dancing.jpg");
+    background-color: gray;
+    background-blend-mode: multiply;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
+
+}
+h3{
+    color: magenta;
+    text-decoration: underline wavy green;
+}
+.blog{
+    background-color: peru;
+    box-shadow: 10px 10px 10px gray;
+    margin-top: 100px;
+}
+p{
+    color: blue;
+}
+.page_tittle{
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
