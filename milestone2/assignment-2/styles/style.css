@@ -8,7 +8,6 @@ header nav
 ----------------------- */
 
 .header {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +15,6 @@ header nav
 }
 
 .nav {
-    border: 2px solid yellow;
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -24,14 +22,12 @@ header nav
 }
 
 .nav-title {
-    border: 2px solid red;
     color: #131313;
     font-weight: 700;
     font-size: 45px;
 }
 
 .nav-button {
-    border: 2px solid red;
     display: flex;
     align-items: center;
     width: 470px;
@@ -39,7 +35,6 @@ header nav
 }
 
 .nav-button a {
-    border: 2px solid yellow;
     text-decoration: none;
     color: #424242;
     font-weight: 500;
@@ -51,7 +46,6 @@ headers texts
 ---------------------- */
 
 .header-container {
-    border: 2px solid red;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
@@ -60,7 +54,6 @@ headers texts
 }
 
 .text-container {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -69,7 +62,6 @@ headers texts
 }
 
 .text-title {
-    border: 2px solid yellow;
     font-weight: 700px;
     font-size: 50px;
     color: #131313;
@@ -78,7 +70,6 @@ headers texts
 }
 
 .text-description {
-    border: 2px solid red;
     color: #727272;
     font-weight: 400;
     font-size: 16px;
@@ -95,7 +86,6 @@ headers texts
 }
 
 .header-image {
-    border: 2px solid yellow;
     width: 90%;
 }
 
@@ -108,14 +98,13 @@ main --> feature container
 --------------------------- */
 
 .main {
-    border: 2px solid yellow;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 130px;
 }
 
 .feature-container {
-    border: 2px solid red;
     width: 85%;
     display: flex;
     justify-content: space-between;
@@ -124,14 +113,12 @@ main --> feature container
 }
 
 .feature-image {
-    border: 2px solid yellow;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
 
 .feater-text {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -139,25 +126,21 @@ main --> feature container
 }
 
 .feature-title {
-    border: 2px solid yellow;
     color: #727272;
     font-weight: 500;
     font-size: 45px;
 }
 
 .feature-title h3 .black {
-    border: 2px solid red;
     color: #131313;
     ;
 }
 
 .feature-title h3 .yellow {
-    border: 2px solid red;
     color: #FF900E;
 }
 
 .feature-description {
-    border: 2px solid red;
     color: #727272;
     font-weight: 400;
     font-size: 16px;
@@ -168,7 +151,6 @@ main --> feature container
  ------------------- */
 
 .love-container {
-    border: 2px solid red;
     display: flex;
     gap: 50px;
     width: 90%;
@@ -176,21 +158,18 @@ main --> feature container
 }
 
 .love-text-container {
-    border: 2px solid yellow;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
 .love-title-container {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
 .love-title {
-    border: 2px solid yellow;
     font-weight: 700;
     font-size: 40px;
     color: #131313;
@@ -199,7 +178,6 @@ main --> feature container
 }
 
 .love-description {
-    border: 2px solid yellow;
     color: #727272;
     font-weight: 400;
     font-size: 16px;
@@ -207,7 +185,6 @@ main --> feature container
 }
 
 .love-sub-container {
-    border: 2px solid yellow;
     width: 585px;
     height: 170px;
     display: flex;
@@ -220,7 +197,6 @@ main --> feature container
 }
 
 .love-sub-title {
-    border: 2px solid red;
     width: 250px;
     font-weight: 600;
     font-size: 20px;
@@ -229,7 +205,6 @@ main --> feature container
 }
 
 .love-sub-description {
-    border: 2px solid yellow;
     color: #727272;
     font-weight: 400;
     font-size: 16px;
@@ -239,7 +214,6 @@ main --> feature container
 }
 
 .love-image {
-    border: 2px solid yellow;
     width: 800px;
     display: flex;
     flex-direction: column;
@@ -262,14 +236,129 @@ main --> feature container
 }
 
 .love-button button .big {
-    border: 2px solid red;
     font-weight: 700;
     font-size: 65px;
 }
 
 .love-button button .small {
-    border: 2px solid yellow;
     font-weight: 500;
     font-size: 25px;
 }
 
+/* ------------------
+fact
+-------------------- */
+
+.fact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 90%;
+    align-items: center;
+    margin-bottom: 180px;
+}
+
+.fact-text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+}
+
+.fact-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.fact-description {
+    color: #727272;
+    width: 540px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.images {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+}
+
+.fact-image-container {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fact-image-container h2 {
+    color: #424242;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.fact-image-container p {
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* ------------------
+sponsors
+-------------------- */
+
+.sponsors {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 90%;
+    align-items: center;
+}
+
+.sponsors-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 540px;
+}
+
+.sponsors-text h2 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.sponsors-text p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.sponsor-image-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* --------------------
+footer
+------------------ */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
