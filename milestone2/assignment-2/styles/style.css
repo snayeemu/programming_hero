@@ -162,3 +162,87 @@ main --> feature container
     font-weight: 400;
     font-size: 16px;
 }
+
+/* ----------------
+ love styles
+ ------------------- */
+
+.love-container {
+    border: 2px solid red;
+    display: flex;
+    gap: 50px;
+    width: 90%;
+}
+
+.love-text-container {
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.love-title-container {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.love-title {
+    border: 2px solid yellow;
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+    width: 585px;
+
+}
+
+.love-description {
+    border: 2px solid yellow;
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    width: 585px;
+}
+
+.love-sub-container {
+    border: 2px solid yellow;
+    width: 585px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.love-sub-title {
+    border: 2px solid red;
+    width: 250px;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    left: 30px;
+}
+
+.love-sub-description {
+    border: 2px solid yellow;
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    width: 510px;
+    position: relative;
+    left: 30px;
+}
+
+.love-image{
+    border: 2px solid yellow;
+    width: 800px;
+}
+
+.love-image img {
+    width: 100%;
+    height: 100%;
+}
