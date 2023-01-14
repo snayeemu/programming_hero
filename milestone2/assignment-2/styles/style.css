@@ -172,6 +172,7 @@ main --> feature container
     display: flex;
     gap: 50px;
     width: 90%;
+    margin-bottom: 130px;
 }
 
 .love-text-container {
@@ -240,6 +241,8 @@ main --> feature container
 .love-image {
     border: 2px solid yellow;
     width: 800px;
+    display: flex;
+    flex-direction: column;
 }
 
 .love-image img {
@@ -255,8 +258,7 @@ main --> feature container
     border: none;
     color: white;
     position: relative;
-    bottom: 150px;
-    left: 200px;
+    bottom: 75px;
 }
 
 .love-button button .big {
@@ -270,3 +272,4 @@ main --> feature container
     font-weight: 500;
     font-size: 25px;
 }
+
