@@ -237,7 +237,7 @@ main --> feature container
     left: 30px;
 }
 
-.love-image{
+.love-image {
     border: 2px solid yellow;
     width: 800px;
 }
@@ -245,4 +245,28 @@ main --> feature container
 .love-image img {
     width: 100%;
     height: 100%;
+}
+
+.love-button button {
+    width: 340px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    position: relative;
+    bottom: 150px;
+    left: 200px;
+}
+
+.love-button button .big {
+    border: 2px solid red;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.love-button button .small {
+    border: 2px solid yellow;
+    font-weight: 500;
+    font-size: 25px;
 }
