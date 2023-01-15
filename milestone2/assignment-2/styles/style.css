@@ -295,6 +295,14 @@ fact
     align-items: center;
     justify-content: center;
     gap: 10px;
+    transition: all 1s;
+}
+
+.fact-image-container:hover {
+    background-color: rgba(255, 255, 0, 0.092);
+    transform: rotate(-20deg);
+    position: relative;
+    bottom: 35px;
 }
 
 .fact-image-container h2 {
