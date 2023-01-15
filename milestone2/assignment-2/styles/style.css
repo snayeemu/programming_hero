@@ -12,6 +12,7 @@ header nav
     flex-direction: column;
     align-items: center;
     margin-bottom: 85px;
+    background: rgba(255, 144, 14, 0.1);
 }
 
 .nav {
@@ -173,8 +174,9 @@ main --> feature container
     font-weight: 700;
     font-size: 40px;
     color: #131313;
-    width: 585px;
-
+    width: 510px;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
 }
 
 .love-description {
@@ -225,8 +227,8 @@ main --> feature container
 }
 
 .love-button button {
-    width: 340px;
-    height: 200px;
+    width: 265px;
+    height: 135px;
     background: #FF900E;
     border-radius: 8px;
     border: none;
