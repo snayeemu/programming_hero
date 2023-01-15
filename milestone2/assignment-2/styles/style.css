@@ -427,11 +427,20 @@ media query
         gap: 20px;
     }
 
-    .nav-button, .text-container, .love-image, .love-title, .love-description, .love-sub-container, .love-sub-description, .fact-description, .sponsors-text, .footer {
+    .nav-button,
+    .text-container,
+    .love-image,
+    .love-title,
+    .love-description,
+    .love-sub-container,
+    .love-sub-description,
+    .fact-description,
+    .sponsors-text,
+    .footer {
         width: 100%;
     }
 
-    .love-title{
+    .love-title {
         font-size: 35px;
     }
 
@@ -476,5 +485,70 @@ media query
         width: 85%;
         text-align: center;
     }
-    
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .nav {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .nav-button,
+    .text-container,
+    .love-image,
+    .love-title,
+    .love-description,
+    .love-sub-container,
+    .love-sub-description,
+    .fact-description,
+    .sponsors-text,
+    .footer {
+        width: 100%;
+    }
+
+    .love-title {
+        font-size: 35px;
+    }
+
+    .feature-container {
+        flex-direction: column-reverse;
+    }
+
+    .feature-image {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .love-container {
+        flex-direction: column;
+    }
+
+    .love-sub-description {
+        width: 90%;
+    }
+
+    .images {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .sponsor-image-container {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .shop-products {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
+    }
+
+    .product-amount {
+        font-size: 13px;
+    }
+
+    .footer p {
+        width: 85%;
+        text-align: center;
+    }
 }
