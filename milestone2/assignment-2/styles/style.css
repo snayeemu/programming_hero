@@ -365,3 +365,45 @@ footer {
     background: #FFF4E7;
     border-radius: 8px;
 }
+
+/* ---------------
+SHOP STYLES
+----------------------- */
+
+.shop-container {
+    margin-top: 100px;
+    width: 90%;
+}
+
+.shop-title {
+    font-size: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #8080803d;
+}
+
+.shop-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+}
+
+.shop-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-image {
+    margin-bottom: 10px;
+}
+
+.product-title {
+    width: 50%;
+    text-align: center;
+}
+
+.product-amount {
+    font-size: 8px;
+    color: #727272;
+}
