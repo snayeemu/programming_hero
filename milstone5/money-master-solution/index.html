@@ -27,37 +27,39 @@
                     <h1 class="text-center text-2xl font-medium">Income</h1>
                     <div class="my-5 flex gap-4 justify-center">
                         <h4 class="font-medium">Income: </h4>
-                        <input class="bg-slate-400 text-white" type="number" name="" id="">
+                        <input class="bg-slate-400 text-white" type="number" name="" id="income-input">
                     </div>
                     <h1 class="text-center text-2xl font-medium">Expenses</h1>
                     <div class="my-5 flex gap-4 justify-center">
-                        <h4 class="font-medium mr-2">Food: </h4>
-                        <input class="bg-slate-400 text-white" type="number" name="" id="">
+                        <h4 class="font-medium mr-2 ">Food: </h4>
+                        <input class="bg-slate-400 text-white expense-input" type="number" name="" id="">
                     </div>
                     <div class="my-5 flex gap-4 justify-center">
-                        <h4 class="font-medium mr-3">Rent: </h4>
-                        <input class="bg-slate-400 text-white" type="number" name="" id="">
+                        <h4 class="font-medium mr-3 ">Rent: </h4>
+                        <input class="bg-slate-400 text-white expense-input" type="number" name="" id="">
                     </div>
                     <div class="my-5 flex gap-4 justify-center">
-                        <h4 class="font-medium">Cloths: </h4>
-                        <input class="bg-slate-400 text-white" type="number" name="" id="">
+                        <h4 class="font-medium ">Cloths: </h4>
+                        <input class="bg-slate-400 text-white expense-input" type="number" name="" id="">
                     </div>
                     <div class="mx-auto text-center mt-8">
-                        <button class="text-white bg-sky-500 px-7 py-2   rounded-xl">Calculate</button>
+                        <button id="calculate-button" class="text-white bg-sky-500 px-7 py-2   rounded-xl">Calculate</button>
                     </div>
-                    <h1 class="text-center text-3xl my-4 font-medium">Total Expenses: <span>0</span></h1>
-                    <h1 class="text-center text-3xl my-4 font-medium">Balance: <span>0</span></h1>
+                    <h1  class="text-center text-3xl my-4 font-medium">Total Expenses: <span id="total-expense">0</span></h1>
+                    <h1 class="text-center text-3xl my-4 font-medium">Balance: <span id="balance">0</span></h1>
                     <div class="flex gap-4 justify-center mt-8 items-center">
                         <h4 class="font-medium">Save</h4>
-                        <input class="bg-slate-400 text-white w-2/12" type="number" name="" id="">
+                        <input class="bg-slate-400 text-white w-2/12" type="number" name="" id="input-save">
                         <h4>%</h4>
-                        <button class="text-white bg-sky-500 px-7 py-2   rounded-xl">Save</button>
+                        <button id="btn-save" class="text-white bg-sky-500 px-7 py-2   rounded-xl">Save</button>
                     </div>
-                    <h1 class="text-center text-3xl my-4 font-medium">Saving Amount: <span>0</span></h1>
-                    <h1 class="text-center text-3xl my-4 font-medium">Remaining Balance: <span>0</span></h1>
+                    <h1 class="text-center text-3xl my-4 font-medium">Saving Amount: <span id="saving-amount">0</span></h1>
+                    <h1 class="text-center text-3xl my-4 font-medium">Remaining Balance: <span id="remaining-balance">0</span></h1>
                 </div>
             </div>
         </section>
     </main>
+    <script src="js/utility.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
