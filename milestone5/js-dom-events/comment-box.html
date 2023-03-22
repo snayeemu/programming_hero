@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Comment</title>
+</head>
+<body>
+    <h1>Please add your comment</h1>
+    <div id="comment-container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quam quis cum, placeat delectus omnis autem? Officiis unde facilis repellat exercitationem. Velit molestias cupiditate, et laborum excepturi tempora dignissimos ullam delectus omnis officiis minima repellendus voluptatum qui corrupti id at eligendi hic architecto. Neque eaque labore adipisci quae optio culpa!</p>
+        <p>Tenetur, sed ad, pariatur cum qui aliquid consectetur deserunt nobis ex, commodi quibusdam. Ullam, cum? Aperiam architecto vitae suscipit veritatis corporis ipsum voluptates quae aliquam voluptas. Autem qui error esse incidunt mollitia voluptas eligendi, impedit dolores officiis at pariatur eius magni. Eaque illo velit vitae ipsam deleniti inventore molestias ex.</p>
+        <p>Exercitationem suscipit, itaque aspernatur a iusto quas rem laborum accusamus omnis eveniet ipsa impedit nam. Ullam maxime id exercitationem blanditiis magnam doloribus perspiciatis unde odit architecto at, atque praesentium laboriosam placeat doloremque ducimus qui asperiores nemo, quod dolorum. Hic doloremque dolor velit perspiciatis optio voluptate reiciendis alias. Laboriosam, nostrum mollitia!</p>
+    </div>
+    <div>
+        <textarea name="" id="new-comment" cols="60" rows="5"></textarea>
+        <br>
+        <button id="btn-post">Post</button>
+    </div>
+    <script>
+        document.getElementById('btn-post').addEventListener('click', function() {
+            let commentBox = document.getElementById('new-comment');
+            let inputs = commentBox.value;
+            let commentContainer = document.getElementById('comment-container');
+            let pTag = document.createElement('p');
+            pTag.innerText = 'This is your new post: \n' + inputs;
+            commentContainer.appendChild(pTag);
+            commentBox.value = '';
+        })
+    </script>
+</body>
+</html>

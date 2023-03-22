@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour of DOM</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        .fruits-container li {
+            color: tomato;
+        }
+        #fruits-title {
+            color: black;
+        }
+        .important-places {
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my DOM</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi expedita necessitatibus debitis mollitia delectus, doloremque architecto vel. Voluptate tenetur distinctio voluptatem eius dolores autem, repudiandae necessitatibus doloribus, enim laudantium itaque.</p>
+    </header>
+    <main id="main-container">
+        <h1>My Awesome DOM de baba</h1>
+        <section>
+            <ul>
+                <li>Jalali Set</li>
+                <li>Shafayet</li>
+                <li>bonobash</li>
+                <li>DOM de re baba</li>
+            </ul>
+        </section>
+        <section class="fruits-container">
+            <h1 id="fruits-title" class="some-class random-class blue-bg">Fruits I like</h1>
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Carrot</li>
+            </ul>
+        </section>
+        <section id="places-container" class="large-text">
+            <h1 id="places-title">Places I like to visit</h1>
+            <ul id="places-list">
+                <li class="important-places">Sundarban</li>
+                <li class="important-places">bandorban</li>
+                <li class="important-places">Kataban</li>
+                <li class="other-place ">Shalbon</li>
+            </ul>
+        </section>
+    </main>
+    <script src="js/dom.js"></script>
+    <script src="js/append.js"></script>
+    <script src="js/styleInJs.js"></script>
+    <script>
+        const liCollection = document.getElementsByTagName('li');
+        // console.log(liCollection);
+        // for (let li of liCollection)
+            // console.log(liCollection);
+        const allHeadings = document.getElementsByTagName('h1');
+        // for (let h1 of allHeadings)
+            // console.log(h1.innerText);
+
+        let fruitsTitle = document.getElementById('fruits-title');
+        fruitsTitle.innerText = 'Fruits changed by JavaScript'
+        
+        const places = document.getElementsByClassName('important-places');
+        // console.log(places);
+        // for (const place of places)
+            // console.log(place.innerText); 
+
+        // querySelectorAll
+        let someLi = document.querySelectorAll('.fruits-container li');
+        // console.log(someLi);
+        // for (let li of someLi)
+            // console.log(li.innerText);
+    </script>
+</body>
+</html>

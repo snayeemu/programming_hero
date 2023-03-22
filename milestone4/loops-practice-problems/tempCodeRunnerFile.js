@@ -1,0 +1,1 @@
+(prompt("Enter marks of five subjects: ").split(' ')).map(Number)
